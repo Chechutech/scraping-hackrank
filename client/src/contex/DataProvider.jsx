@@ -3,7 +3,7 @@ import axios from "axios";
 import { DataContext } from "./DataContext";
 
 
-const URL = "http://localhost:3000/api/challenge";
+const URL = "https://scraping-hackrank.onrender.com/api/challenge";
 
 export const DataProvider = ({ children }) => {
   const [dataNews, setDataNews] = useState([]);
