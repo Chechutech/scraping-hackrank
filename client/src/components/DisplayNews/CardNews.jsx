@@ -17,11 +17,8 @@ export const CardNews = () => {
 
   useEffect(() => {
     if (dataNews && dataNews.length > 0) {
-      const loader = setTimeout(() => {
-        setResult(dataNews);
-        setLoading(false);
-      }, 1000);
-      return () => clearTimeout(loader);
+      setResult(dataNews); 
+      setLoading(false); 
     } else {
       setLoading(true);
     }

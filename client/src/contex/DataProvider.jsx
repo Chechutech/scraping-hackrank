@@ -5,6 +5,11 @@ import { DataContext } from "./DataContext";
 
 const URL = "https://scraping-hackrank.onrender.com/api/challenge";
 
+// to run the tests locally if render doesn't work
+
+// const URL = "http://localhost:3000/api/challenge";
+
+
 export const DataProvider = ({ children }) => {
   const [dataNews, setDataNews] = useState([]);
 

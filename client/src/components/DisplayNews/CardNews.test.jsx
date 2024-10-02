@@ -37,22 +37,23 @@ test("should render the updated title and comments", () => {
       <CardNews />
     </NewsDataMockProvider>
   );
-  const title = screen.getByText("Comedy Theory (2022)");
-  const points = screen.getByText(/25 points/i);
+  const title =  screen.getByText("Comedy Theory (2022)");
+  const points =  screen.getByText(/25 points/i);
   expect(title).toBeInTheDocument();
   expect(points).toBeInTheDocument();
 });
 
-test("should order by 5 words when click", () => {
+test("should order by 5 words when click",  () => {
   render(
     <NewsDataMockProvider>
       <CardNews />
     </NewsDataMockProvider>
   );
 
-  const button = screen.getByText("Mas 5");
+  const button = screen.getByText("More than Five Words");
   fireEvent.click(button);
-  const orderBy = screen.getAllByRole("heading", { level: 2 });
+
+  const orderBy =  screen.getAllByRole("heading", { level: 3 });
   expect(orderBy[0]).toHaveTextContent(
     "Is the world really running out of sand?"
   );
