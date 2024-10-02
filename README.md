@@ -13,7 +13,7 @@ You can interact with the project by applying filters to the entries:
 
 ##   Demo
 
-🚀 Check the demo here! 
+🚀 Check the demo here! https://singular-babka-a88eaa.netlify.app/ 
 
 
 ## Tech Stack
