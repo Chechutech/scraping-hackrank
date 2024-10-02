@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 
 const url = "https://news.ycombinator.com/";
 
-// app.use(express.static(join(__dirname, "client")));
+
 
 app.get("/api/challenge", async (req, res) => {
   try {
