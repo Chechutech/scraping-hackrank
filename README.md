@@ -5,7 +5,7 @@ This web project was built to extract entries from a URL using web scraping tech
 
 You can interact with the project by applying filters to the entries:
 - **See All:** Displays all the entries.
-- **Filter By:**  entries filtered by comments or points are sorted in ascending order..
+- **Filter By:**  entries filtered by comments or points that are sorted in ascending order.
 - **Order by:**  entries with the number of words that users write.
 
 
@@ -13,7 +13,7 @@ You can interact with the project by applying filters to the entries:
 
 ##   Demo
 
-🚀 Check the demo here! https://singular-babka-a88eaa.netlify.app/ 
+🚀 Check the demo here! https://snazzy-twilight-91bda8.netlify.app/
 
 
 ## Tech Stack
