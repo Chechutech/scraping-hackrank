@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-container {
+  background-color: #1f2937;
+  border-radius: 32px;
+  padding: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  border-bottom: 1px solid #ffffff1a;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  height: auto;
+}
+.card-header {
+  text-align: start;
+  width: 100%;
+}
+.card-comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fffc;
+}

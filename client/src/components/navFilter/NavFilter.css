@@ -1,0 +1,86 @@
+.header-container {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  width: 100%;
+  margin-top: 4rem;
+}
+.filter-center {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  gap: 2rem;
+  place-content: center;
+  margin-bottom: 20px;
+
+  text-align: start;
+}
+.filter-label {
+  padding-right: 1rem;
+}
+
+.btn-input {
+  border-radius: 8px;
+  width: 120px;
+  border: 2px solid transparent;
+  padding: 0.3em;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: "DM Sans", sans-serif;
+}
+
+input[type="number"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    width: 50px;
+    cursor: default;
+    text-align: center;
+}
+input[type="number"]:focus {
+    border-color: #ff7551;
+    outline: #ff7551;
+}
+
+.filter-group button{
+    background-color: #ff7551;
+    color: #f9f9f9;
+    font-weight: 600;
+
+}
+form button:hover,
+.chip-containter button:hover {
+  border-color: #ff7551;
+}
+
+
+.chip-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+.chip-container button {
+  border-radius: 8px;
+  width: auto;
+  border: 2px solid transparent;
+  padding: 0.2rem 0.5rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+.chip-container span {
+  color: #ff7551;
+}
+
+@media only screen and (max-width: 700px) {
+  .filter-center {
+    grid-template-columns: 1fr;
+    margin: 30px;
+    gap: 1rem;
+  }
+}

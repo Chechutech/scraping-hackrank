@@ -1,0 +1,20 @@
+main {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  color:white
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+
+}
