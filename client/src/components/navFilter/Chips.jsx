@@ -22,7 +22,7 @@ export const Chips = () => {
       {hasFilter_By_Comments && (
         <li>
           <button onClick={() => onDeleteChip(filterTypes.filter_by)}>
-            Order ascendent by: { filter_By_Comments } <span>x</span>
+            Order ascending by: { filter_By_Comments } <span>x</span>
           </button>
         </li>
       )}
